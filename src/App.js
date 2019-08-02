@@ -29,6 +29,7 @@ const renderSingleValue = (resultSet, key) => (
 class App extends Component {
   render() {
     return (
+    <div>
       <Container fluid>
         <Row>
           <Col sm="4">
@@ -149,6 +150,7 @@ class App extends Component {
           </Col>
         </Row>
       </Container>
+    </div>
     );
   }
 }
